@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pro-gres Arkadiusz Latarski | Profesjonalne usługi glazurnicze</title>
+    <meta name="description" content="Profesjonalne usługi glazurnicze – Łowicz i okolice. Kompleksowe wykończenia łazienek, układanie płytek i podłóg. Pro-gres Arkadiusz Latarski.">
+    
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons (Phosphor Icons or FontAwesome placeholder) -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <img src="logo.jpeg" alt="Pro-gres Arkadiusz Latarski" class="header-logo">
+            </a>
+            
+            <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+                <i class="ph ph-list"></i>
+            </button> <!-- Hamburger -->
+
+            <ul id="primary-navigation" class="nav-links" data-visible="false">
+                <li><a href="#o-nas">O nas</a></li>
+                <li><a href="#uslugi">Usługi</a></li>
+                <li><a href="#realizacje">Realizacje</a></li>
+                <li><a href="#opinie">Opinie</a></li>
+                <li>
+                    <a href="https://www.facebook.com/share/17v214Mk1R/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" class="social-link" title="Odwiedź naszego Facebooka">
+                        <i class="ph-fill ph-facebook-logo"></i>
+                    </a>
+                </li>
+                <li><a href="#kontakt" class="btn btn-outline" style="margin-left:auto;">Kontakt</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1>Profesjonalne usługi glazurnicze <br><span class="highlight">Łowicz i okolice</span></h1>
+            <p class="hero-subtitle">Solidność, precyzja i lata doświadczenia. Oferujemy usługi dla klientów indywidualnych, firm oraz deweloperów.</p>
+            <div class="hero-actions">
+                <a href="tel:+48605135777" class="btn btn-primary btn-large">
+                    <i class="ph ph-phone"></i> Zadzwoń teraz
+                </a>
+                <a href="#uslugi" class="btn btn-secondary btn-large">Nasze usługi</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about section" id="o-nas">
+        <div class="container about-container">
+            <div class="about-text">
+                <span class="section-tag">O nas</span>
+                <h2 class="section-title">Ponad dekada precyzji w każdym detalu</h2>
+                <p>
+                    <strong>Pro-gres Arkadiusz Latarski</strong> to firma działająca na rynku od 5 do 10 lat. Naszą misją jest dostarczanie najwyższej jakości usług wykończeniowych. Przez lata wypracowaliśmy standardy, które pozwalają nam realizować nawet najbardziej wymagające projekty.
+                </p>
+                <p>
+                    Obsługujemy zarówno <strong>klientów prywatnych, jak i firmy oraz deweloperów</strong> w Łowiczu i okolicznych miejscowościach. Stawiamy na rzetelność, terminowość i czystość w miejscu pracy.
+                </p>
+                
+                <div class="stats">
+                    <div class="stat-item">
+                        <span class="stat-number">10+</span>
+                        <span class="stat-label">Lat doświadczenia</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Zadowolonych klientów</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <!-- Placeholder for owner photo or generic tools image -->
+                <div class="image-wrapper">
+                    <img src="./onas.jpg" alt="Praca glazurnika" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- Services Section -->
+    <section class="services section bg-light" id="uslugi">
+        <div class="container">
+            <div class="section-header center">
+                <span class="section-tag">Nasza oferta</span>
+                <h2 class="section-title">W czym się specjalizujemy?</h2>
+                <p class="section-desc">Gwarantujemy najwyższą jakość wykonania w trzech głównych obszarach wykończenia wnętrz.</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="ph ph-squares-four"></i>
+                    </div>
+                    <h3>Układanie płytek i glazury</h3>
+                    <p>Precyzyjne układanie każdego rodzaju płytek (gres, terakota, mozaika, spieki kwarcowe) z dbałością o idealne fugi i poziomy.</p>
+                </div>
+                
+                <!-- Service 2 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="ph ph-drop"></i>
+                    </div>
+                    <h3>Kompleksowe łazienki</h3>
+                    <p>Pełny zakres prac od przygotowania podłoża, hydroizolacji, po biały montaż. Tworzymy łazienki gotowe do użytku.</p>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="ph ph-intersect"></i>
+                    </div>
+                    <h3>Układanie podłóg</h3>
+                    <p>Profesjonalne układanie paneli, desek podłogowych oraz listwowanie. Idealnie równe, ciche i trwałe posadzki na lata.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section (Realizacje) -->
+    <section class="gallery section" id="realizacje">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Portfolio</span>
+                <h2 class="section-title">Nasze realizacje</h2>
+                <p class="section-desc">Zobacz wybrane projekty, które zrealizowaliśmy dla naszych klientów z Łowicza i okolic.</p>
+            </div>
+
+            <div class="gallery-grid" id="gallery-container">
+                <!-- Gallery items will be dynamically loaded here by app.js -->
+                <div class="gallery-placeholder text-center text-muted" style="grid-column: 1 / -1; padding: 2rem;">
+                    Ładowanie realizacji...
+                </div>
+            </div>
+            
+            <div class="center" style="margin-top: 3rem;">
+                <p class="text-muted"><small><i>Zdjęcia pobierane automatycznie z folderu "realizacje"</i></small></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews section bg-light" id="opinie">
+        <div class="container">
+            <div class="section-header center">
+                <span class="section-tag">Zaufanie</span>
+                <h2 class="section-title">Co mówią o nas klienci?</h2>
+            </div>
+
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="stars">
+                        <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
+                    </div>
+                    <p class="review-text">"Pan Arkadiusz to prawdziwy profesjonalista. Łazienka wykonana z najwyższą starannością, fugi równe jak z linijki. Co ważne - terminowo i czysto. Bardzo polecam!"</p>
+                    <p class="review-author">- Tomasz, Łowicz</p>
+                </div>
+                
+                <div class="review-card">
+                    <div class="stars">
+                        <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
+                    </div>
+                    <p class="review-text">"Szybko, solidnie i bez ukrytych kosztów. Dużo doradzili w kwestii wyboru chemii budowlanej. Podłogi ułożone idealnie. Fachowcy, których ze świecą szukać."</p>
+                    <p class="review-author">- Anna K.</p>
+                </div>
+
+                <div class="review-card">
+                    <div class="stars">
+                        <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
+                    </div>
+                    <p class="review-text">"Współpracujemy z Pro-gres przy inwestycjach deweloperskich. Firma rzetelna, wywiązuje się z umów i gwarantuje wysoką jakość przy dużych powierzniach. Polecamy."</p>
+                    <p class="review-author">- Firma Deweloperska, Skierniewice</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="kontakt">
+        <div class="container contact-container">
+            <div class="contact-info">
+                <span class="section-tag">Kontakt</span>
+                <h2 class="section-title">Porozmawiajmy o Twoim projekcie</h2>
+                <p>Niezależnie od tego, czy planujesz remont łazienki, czy szukasz wykonawcy podłóg dla całej inwestycji - zadzwoń do nas lub napisz. Oferujemy darmową wycenę.</p>
+                
+                <ul class="contact-details">
+                    <li>
+                        <div class="contact-icon"><i class="ph ph-phone"></i></div>
+                        <div>
+                            <span class="contact-label">Telefon</span>
+                            <a href="tel:+48605135777" class="contact-value">605 135 777</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="contact-icon"><i class="ph ph-map-pin"></i></div>
+                        <div>
+                            <span class="contact-label">Obszar działania</span>
+                            <span class="contact-value">Łowicz i okolice</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="contact-icon"><i class="ph ph-envelope"></i></div>
+                        <div>
+                            <span class="contact-label">E-mail</span>
+                            <a href="mailto:kontakt@pro-gres.com.pl" class="contact-value">kontakt@pro-gres.com.pl</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="contact-form-wrapper">
+                <form class="contact-form" onsubmit="event.preventDefault(); alert('Wiadomość wysłana! (Funkcja w przygotowaniu - podłącz php/API)');">
+                    <div class="form-group">
+                        <label for="name">Imię i nazwisko</label>
+                        <input type="text" id="name" required placeholder="Jan Kowalski">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Telefon</label>
+                        <input type="tel" id="phone" required placeholder="123 456 789">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Wiadomość / Krótki opis zlecenia</label>
+                        <textarea id="message" rows="4" required placeholder="Opisz krótko czym jesteś zainteresowany/a..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Wyślij wiadomość</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <a href="#" class="logo" style="margin-bottom: 1rem; display: inline-block;">
+                    <img src="logo.jpeg" alt="Pro-gres Arkadiusz Latarski" style="max-height: 48px; filter: brightness(0) invert(1);">
+                </a>
+                <p>Profesjonalne usługi glazurnicze i wykończeniowe. <br>Łowicz i okolice.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Menu</h4>
+                <ul>
+                    <li><a href="#o-nas">O nas</a></li>
+                    <li><a href="#uslugi">Usługi</a></li>
+                    <li><a href="#realizacje">Realizacje</a></li>
+                    <li><a href="#opinie">Opinie</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Szybki kontakt</h4>
+                <p><i class="ph ph-phone"></i> 605 135 777</p>
+                <p><i class="ph ph-envelope"></i> kontakt@pro-gres.com.pl</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 Pro-gres Arkadiusz Latarski. Wszelkie prawa zastrzeżone.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
